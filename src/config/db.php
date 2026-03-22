@@ -2,8 +2,8 @@
 // 👨‍💻 พัฒนาโดย: [ใส่รหัสนักศึกษา นาย A] [ใส่ชื่อ-นามสกุล นาย A]
 $host = 'db';
 $dbname = 'helpdesk_db'; // เดี๋ยวนาย B จะเป็นคนไปสร้างก้อนนี้เอง
-$username = 'dev_user';
-$password = 'dev_password';
+$username = 'admin';
+$password = 'admin1234';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
